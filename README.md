@@ -26,12 +26,6 @@
 ให้เดินสายอุปกรณ์และเซนเซอร์ต่างๆ ตามภาพ
 
 <p align="center">
-  <img src="doc/picture001.jpg" width="400" align="center">
-</p> 
-<p align="center">
-  <img src="doc/picture002.jpg" width="400" align="center">
-</p>
-<p align="center">
   <img src="doc/picture003.jpg" width="400" align="center">
 </p>
 <p align="center">
