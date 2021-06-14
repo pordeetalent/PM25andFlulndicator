@@ -11,13 +11,15 @@
 ## อุปกรณ์ที่ใช้
 
  1. NodeMCU ESP8266
- 2. เซนเซอร์ xxx
- 3. เซนเซอร์ xxx
- 4. เซนเซอร์ xxx
- 5. ซอฟต์แวร์ Arduino 1.6.8
- 6. ESP8266 2.4.2
- 7. Python2 หรือ 3
- 8. git
+ 2. Infrared temperature sensor (GY 906)
+ 3. Laser dust sensor (PMS 3003)
+ 4. Tracking sensor (TCRT 5000)
+ 5. LED ขนาด 5mm
+ 6. LCD I2C screen ขนาด 16 x2
+ 7. ซอฟต์แวร์ Arduino 1.6.8
+ 8. ESP8266 2.4.2
+ 9. Python2 หรือ 3
+ 10. git
 
 ## แผงวงจร
 
