@@ -9,7 +9,11 @@ AWS IoT Core เป็นบริการ IoT ของ AWS โดยรูป
 
 ### สร้าง User IAM
 
+สร้าง User สำหรับ Programatic job เพื่อให้ User นี้เข้าถึงการใช้งาน Thing ที่จะสร้างขึ้นได้
+
 ### สร้าง Thing
+
+สร้าง Thing เพื่อระบุให้เป็นบอร์ด NodeMCU ที่เราจะใช้งาน
 
 ### รายการ Credential จาก AWS
 
