@@ -23,10 +23,13 @@
 ให้เดินสายอุปกรณ์และเซนเซอร์ต่างๆ ตามภาพ
 
 <p align="center">
-  <img src="doc/picture003.jpg" width="400" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
+  <img src="doc/pm2.5_node_schem.jpg" width="600" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
 </p>
 <p align="center">
-  <img src="doc/picture004.jpg" width="400" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
+  <img src="doc/picture003.jpg" width="600" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
+</p>
+<p align="center">
+  <img src="doc/picture004.jpg" width="600" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
 </p>
 
 ## จัดทำโค้ดสำหรับโครงการ
