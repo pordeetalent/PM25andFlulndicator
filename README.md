@@ -9,10 +9,10 @@
 
 ในโครงการนี้จะจัดทำโค้ดสำหรับส่งข้อมูลสองแบบด้วยกัน คือ ใช้ AWS IoT Core สำหรับบริการ PubSub และอีกรูปแบบคือ ใช้ MQTT Server ในการส่งข้อมูล
 <p align="center">
-  <img src="doc/PM25andFlulndicatorOutput1.jpg" width="600" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
+  <img src="doc/PM25andFlulndicatorOutput1.jpg" width="900" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
 </p>
 <p align="center">
-  <img src="doc/PM25andFlulndicatorOutput2.jpg" width="600" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
+  <img src="doc/PM25andFlulndicatorOutput2.jpg" width="400" align="center" alt="อุปกรณ์ที่ประกอบเสร็จแล้ว" title="อุปกรณ์ที่ประกอบเสร็จแล้ว" caption="อุปกรณ์ที่ประกอบเสร็จแล้ว">
 </p>
 
 ## อุปกรณ์ที่ใช้
