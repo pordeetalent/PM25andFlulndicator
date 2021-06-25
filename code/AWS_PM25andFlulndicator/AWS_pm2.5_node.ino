@@ -1,10 +1,14 @@
 #include <ESP8266WiFi.h>
+#include "random.h"
+#include "global.h"
+#include "aws.h"
 #include "Data.h"
-#include "MQTT_msg.h"
 
 void setup() {
   Serial.begin(115200);
   Serial.setDebugOutput(0); 
+  generateClientID();
+  init_AWS_service();
   
   Serial.println("/nstart");
   while (!Serial) ;
@@ -19,12 +23,15 @@ void setup() {
   lcd.setCursor(0, 0);
   lcd.print("     start");
   LCD("         ",9999);
-
-  setMqtt();
-  mqtt_msg("start");
 }
 
 void loop() {
+  if(WiFi.status() != WL_CONNECTED){
+     set_wifi();
+     AWS_Setup();
+  }
+  AWS_callback();
+  
   IR = digitalRead(IRpin);
   if (IR != lastIR){
     delay(70);
@@ -45,12 +52,14 @@ void loop() {
     Led(0,0);
   }
   else if (i%24 == 0) bodytemp();
-  
+
   if (i%100 == 0) pm();
   if (i == 600) {
     tempread();
-    mqtt_msg("Ambient:\t" + String(Ambient) + " C \npm2.5:\t" + String(pm2_5) + " ug/m3");
-    Serial.println("------- MQTT -------");
+    AWS_msg("Ambient: " + String(Ambient) + " C \npm2.5:\t " + String(pm2_5) + " ug/m3");
+    //AWS_msg("Object : " + String(Object) + " C");
+    AWS_callback();
+    Serial.println("------- AWS -------");
     i = 0;
   }
   delay(100);
