@@ -6,10 +6,14 @@
 
 void setup() {
   Serial.begin(115200);
-  Serial.setDebugOutput(0);
+  lcd.begin();
+  lcd.backlight();
+  lcd.setCursor(0, 0);
+  lcd.print("     start");
+  Serial.setDebugOutput(0); 
   generateClientID();
   init_AWS_service();
-
+  
   Serial.println("/nstart");
   while (!Serial) ;
   mySerial.begin(9600);
@@ -18,10 +22,6 @@ void setup() {
   pinMode(led_R, OUTPUT);
   pinMode(led_G, OUTPUT);
 
-  lcd.begin();
-  lcd.backlight();
-  lcd.setCursor(0, 0);
-  lcd.print("     start");
   LCD("         ",9999);
 }
 
@@ -31,7 +31,7 @@ void loop() {
      AWS_Setup();
   }
   AWS_callback();
-
+  
   IR = digitalRead(IRpin);
   if (IR != lastIR){
     delay(70);
@@ -48,7 +48,7 @@ void loop() {
 
   i++;
   if (IR != 0) {
-    LCD("              ",9999);
+    LCD("              ",9999); 
     Led(0,0);
   }
   else if (i%24 == 0) bodytemp();
