@@ -46,6 +46,16 @@ AWS IoT Core เป็นบริการ IoT ของ AWS โดยรูป
  - cd เข้าไปที่โฟลเดอร์ esp8266/tools (Documents/Arduino/hardware/esp8266com/esp8266/tools)
  - พิมพ์คำสั่ง python get.py
 
+## Library
+
+### ไลบรารี่ที่ต้องใช้
+
+- ติดตั้ง ESP8266WiFi.h       เวอร์ชั่น 1.0.0
+- ติดตั้ง SoftwareSerial.h    เวอร์ชั่น 1.0.0
+- ติดตั้ง Wire.h              เวอร์ชั่น 1.0.0
+- ติดตั้ง Adafruit_MLX90614.h เวอร์ชั่น 1.1.1
+- ติดตั้ง LiquidCrystal_I2C.h เวอร์ชั่น Unknown
+
 ## จัดทำบอร์ด
 
 สำหรับขั้นตอนนี้ เราได้มีอุปกรณ์ NodeMCU พร้อมเดินลายวงจรและเซ็นเซอร์ไว้เรียบร้อยแล้ว โดยดูได้ที่ README.md ของโฟลเดอร์หลักของโครงการ
