@@ -1,4 +1,4 @@
-# MQTT PM25andFlulndicator
+# MQTT Server
 ## การใช้งานโค้ด MQTT Server สำหรับโครงการนี้
 
 MQTT Server เป็นรูปแบบการรับและส่งข้อมูลแบบ Client Server ที่เป็นที่นิยมสำหรับการจัดทำโครงงาน IoT โดยรูปแบบการให้บริการคือ MQTT จะมีบริการรับและส่งข้อมูล PubSub โดยที่เราจะทำให้บอร์ด NodeMCU ของเราส่งข้อมูลขึ้นไปยัง MQTT Server ของเรา
