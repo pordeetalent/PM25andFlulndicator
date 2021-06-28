@@ -57,7 +57,6 @@ void loop() {
   if (i == 600) {
     tempread();
     AWS_msg("Ambient: " + String(Ambient) + " C \npm2.5:\t " + String(pm2_5) + " ug/m3");
-    //AWS_msg("Object : " + String(Object) + " C");
     AWS_callback();
     Serial.println("------- AWS -------");
     i = 0;
