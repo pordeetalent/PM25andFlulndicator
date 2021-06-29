@@ -50,11 +50,11 @@ AWS IoT Core เป็นบริการ IoT ของ AWS โดยรูป
 
 ### ไลบรารี่ที่ต้องใช้
 
-- ติดตั้ง ESP8266WiFi.h&emsp;เวอร์ชั่น 1.0.0
-- ติดตั้ง SoftwareSerial.h&emsp;เวอร์ชั่น 1.0.0
-- ติดตั้ง Wire.h&emsp;&emsp;&emsp;&emsp;&emsp;เวอร์ชั่น 1.0.0
+- ติดตั้ง ESP8266WiFi.h&emsp;&emsp;เวอร์ชั่น 1.0.0
+- ติดตั้ง SoftwareSerial.h&emsp;&emsp;เวอร์ชั่น 1.0.0
+- ติดตั้ง Wire.h&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;เวอร์ชั่น 1.0.0
 - ติดตั้ง Adafruit_MLX90614.h เวอร์ชั่น 1.1.1
-- ติดตั้ง LiquidCrystal_I2C.h &emsp; เวอร์ชั่น Unknown
+- ติดตั้ง LiquidCrystal_I2C.h&emsp; เวอร์ชั่น Unknown
 
 ## จัดทำบอร์ด
 
