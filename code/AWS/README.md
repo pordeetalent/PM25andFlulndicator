@@ -54,7 +54,7 @@ AWS IoT Core เป็นบริการ IoT ของ AWS โดยรูป
 - ติดตั้ง SoftwareSerial.h&emsp;เวอร์ชั่น 1.0.0
 - ติดตั้ง Wire.h&emsp;&emsp;&emsp;เวอร์ชั่น 1.0.0
 - ติดตั้ง Adafruit_MLX90614.h เวอร์ชั่น 1.1.1
-- ติดตั้ง LiquidCrystal_I2C.h เวอร์ชั่น Unknown
+- ติดตั้ง LiquidCrystal_I2C.h&emsp;เวอร์ชั่น Unknown
 
 ## จัดทำบอร์ด
 
